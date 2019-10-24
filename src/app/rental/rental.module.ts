@@ -6,18 +6,22 @@ import { RentalListItemComponent } from './rental-list-item/rental-list-item.com
 import { RentalComponent } from './rental.component';
 import { RentalService } from './shared/rental.service';
 import { RentalDetailComponent } from './rental-detail/rental-detail.component'
+import { NgPipesModule } from 'ngx-pipes';
+import { UppercasePipe } from './../common/pipes/uppercase.pipe';
 
 @NgModule({
   declarations: [
     RentalListComponent,
     RentalListItemComponent,
     RentalComponent,
-    RentalDetailComponent
+    RentalDetailComponent,
+    UppercasePipe
   ],
 
   imports: [
     CommonModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgPipesModule
   ],
   providers: [
     RentalService

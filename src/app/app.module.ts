@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './common/header/header.component';
@@ -14,7 +14,8 @@ import { RentalModule } from './rental/rental.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RentalModule
+    RentalModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -25,7 +25,7 @@ class FakeDB {
         },
         {
             title: "Old house in nature",
-            city: "Spisska Nova Ves",
+            city: "Spisska nova ves",
             street: "Banicka 1",
             category: "house",
             image: "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
