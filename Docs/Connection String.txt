@@ -1,0 +1,6 @@
+mongodb+srv://RentalApp:rentalApp@rentalappcluster-xkboy.mongodb.net/test?retryWrites=true&w=majority
+
+mongodb+srv://admin:admin@rentalappcluster-xkboy.mongodb.net/test?retryWrites=true&w=majority
+
+
+mongodb://admin:admin@rentalappcluster-shard-00-00-xkboy.mongodb.net:27017,rentalappcluster-shard-00-01-xkboy.mongodb.net:27017,rentalappcluster-shard-00-02-xkboy.mongodb.net:27017/test?ssl=true&replicaSet=RentalAppCluster-shard-0&authSource=admin&retryWrites=true&w=majority';

@@ -1,0 +1,3 @@
+﻿##### nosql vs sql #####
+https://medium.com/xplenty-blog/the-sql-vs-nosql-difference-mysql-vs-mongodb-32c9980e67b2
+https://www.sitepoint.com/sql-vs-nosql-differences/
