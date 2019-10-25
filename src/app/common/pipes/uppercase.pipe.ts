@@ -4,7 +4,7 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'upper'
 })
 export class UppercasePipe implements PipeTransform {
-  transform(value: String): any {
+  transform(value: string): any {
     const transformedvalue = value.concat('appended');
     return transformedvalue;
   }

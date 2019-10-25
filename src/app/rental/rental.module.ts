@@ -8,6 +8,7 @@ import { RentalService } from './shared/rental.service';
 import { RentalDetailComponent } from './rental-detail/rental-detail.component'
 import { NgPipesModule } from 'ngx-pipes';
 import { UppercasePipe } from './../common/pipes/uppercase.pipe';
+import { MapModule } from './../common/map/map.module'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { UppercasePipe } from './../common/pipes/uppercase.pipe';
   imports: [
     CommonModule,
     AppRoutingModule,
-    NgPipesModule
+    NgPipesModule,
+    MapModule
   ],
   providers: [
     RentalService
